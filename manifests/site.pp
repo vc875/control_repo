@@ -1,5 +1,5 @@
 make default {
-  file {'/root/README':
+  file ('/root/README':
     ensure => file,
-  }
+  )
 }
